@@ -128,7 +128,7 @@ jobs:
         run: |
           cd $REPO_NAME/out/Debug
           mkdir artifact
-          mv Telegram.app artifact/
+          mv Teamgram.app artifact/
           mv Updater artifact/
       - uses: actions/upload-artifact@master
         if: env.UPLOAD_ARTIFACT == 'true'
